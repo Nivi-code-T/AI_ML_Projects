@@ -10,7 +10,7 @@ from sklearn.externals.array_api_extra import one_hot
 from Sklearn import X_train, y_train
 
 #Read Data from CSV
-car_sales_missing=pd.read_csv("car-sales-extended-missing-data.csv")
+car_sales_missing=pd.read_csv("../../car-sales-extended-missing-data.csv")
 print(car_sales_missing.head(40))
 
 #Find Missing Values
